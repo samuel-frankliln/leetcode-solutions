@@ -19,7 +19,7 @@ class Solution:
                     l =l+1
                     while nums[l] == nums[l-1] and l < r:
                         l=l+1
-    return res 
+        return res 
 
 
         
