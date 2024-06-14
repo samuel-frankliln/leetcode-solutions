@@ -1,10 +1,8 @@
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # Create a list of tuples (num, index)
         num_with_indices = [(num, i) for i, num in enumerate(nums)]
         
-        # Sort the list based on the numbers
         num_with_indices.sort()
         
         l, r = 0, len(num_with_indices) - 1
